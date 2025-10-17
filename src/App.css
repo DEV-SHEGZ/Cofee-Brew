@@ -1,0 +1,74 @@
+/* Navbar list styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(
+    270deg,
+    #301f15 0%,
+    #301f15 19.24%,
+    #301f16 38.54%,
+    #4a2f25 58.26%,
+    #5c3e31 79.37%,
+    #5a4031 100%
+  );
+  height: 104px !important;
+}
+
+.navbar > ul {
+  display: flex;
+  padding-inline-start: 0px !important;
+  gap: 50px;
+}
+.navbar-logo {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  font-family: "Pacifico", cursive;
+
+  font-style: normal;
+  color: #f7f0d4;
+}
+.nav-ul > li {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav-ul > li > a {
+  text-decoration: none;
+  color: #f7f0d4;
+}
+
+.nav-ul > li :hover {
+  border-bottom: 2px solid #f7f0d4;
+  padding-bottom: 10px !important;
+}
+
+.navbar-glass {
+  height: 28px !important;
+  width: 28px !important;
+}
+
+/* Hero styling */
+
+.hero {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.hero-header {
+  font-family: Josefin Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+}
+
+.coffee-cup {
+  height: 650px;
+}
