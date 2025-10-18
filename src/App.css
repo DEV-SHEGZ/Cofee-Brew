@@ -54,12 +54,23 @@
 }
 
 /* Hero styling */
-
+.hero-background {
+  background: linear-gradient(
+    270deg,
+    #301f15 0%,
+    #301f15 19.24%,
+    #301f16 38.54%,
+    #4a2f25 58.26%,
+    #5c3e31 79.37%,
+    #5a4031 100%
+  );
+}
 .hero {
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 85%;
   margin: auto;
+  padding-top: 70px;
 }
 
 .hero-header {
@@ -67,8 +78,66 @@
   font-weight: 700;
   font-style: Bold;
   font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero-p {
+  font-family: Josefin Sans;
+  font-weight: 300;
+  font-style: Regular;
+  font-size: 19px;
+  color: #f7f0d4;
+  margin-bottom: 20px;
 }
 
 .coffee-cup {
-  height: 650px;
+  height: 600px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  gap: 20px;
+}
+
+hr {
+  transform: rotate(90deg);
+  margin-bottom: 50px;
+}
+
+.order-btn {
+  background-color: #f7f0d4;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cofeeseed1 {
+  position: absolute;
+  width: 44px;
+  height: 37.58856964111328px;
+  top: 250px;
+  left: 115px;
+}
+
+.cofeeseed2 {
+  position: absolute;
+  width: 66px;
+  height: 56.38285446166992px;
+  top: 200px;
+  left: 320px;
+}
+
+.cofeeseed3 {
+  position: absolute;
+  width: 112px;
+  height: 95.67999267578125px;
+  top: 250px;
+  left: 600px;
 }
