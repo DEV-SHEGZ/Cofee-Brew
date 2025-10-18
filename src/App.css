@@ -141,3 +141,97 @@ hr {
   top: 250px;
   left: 600px;
 }
+
+.cofeeseed4 {
+  position: absolute;
+  width: 28.093647003173828px;
+  height: 24px;
+  top: 650px;
+  left: 106px;
+}
+
+.cofeeseed5 {
+  position: absolute;
+  width: 96px;
+  height: 82.01142120361328px;
+  top: 650px;
+  left: 200px;
+}
+
+.cofeeseed6 {
+  position: absolute;
+  width: 44px;
+  height: 37.58856964111328px;
+  top: 620px;
+  left: 480px;
+}
+
+.cofeeseed7 {
+  position: absolute;
+  width: 23.411373138427734px;
+  height: 20px;
+  top: 600px;
+  left: 580px;
+}
+
+/*About Us */
+.discver-hd {
+  font-family: Josefin Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  color: #3f2f2a;
+}
+
+.discver-p {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 28px;
+  color: #3f2f2a;
+}
+
+.p-dv {
+  color: #3f2f2a;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+}
+
+.aboutus-img {
+  height: 485px;
+}
+
+.discover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.discover-background {
+  background: #dbbca0;
+}
+
+.second-div {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Read-more {
+  background-color: #301f15;
+  color: #f7f0d4;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 40px;
+  width: 35%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -35,6 +35,7 @@ const Hero = () => {
       <img src={cofeeseed} className="cofeeseed4" />
       <img src={cofeeseed} className="cofeeseed5" />
       <img src={cofeeseed} className="cofeeseed6" />
+      <img src={cofeeseed} className="cofeeseed7" />
     </div>
   );
 };
