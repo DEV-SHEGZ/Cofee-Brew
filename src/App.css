@@ -209,7 +209,8 @@ hr {
   justify-content: space-between;
   width: 85%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .discover-background {
@@ -234,4 +235,63 @@ hr {
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
+}
+
+/* Item Cards */
+.item-card {
+  width: 164px;
+  height: 204px;
+  border-radius: 12px;
+  border-width: 0.4px;
+  background: #f7f0d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 0px #0000001f;
+}
+
+.coffee-img-cake {
+  width: 114.61661529541016;
+  height: 110.97534942626953;
+  margin: auto;
+}
+
+.coffee-img-beans {
+  width: 107px;
+  height: 100px;
+  margin: auto;
+}
+
+.coffee-img-cup {
+  width: 102px;
+  height: 54px;
+  margin: auto;
+}
+.coffee-txt {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+}
+
+.first-container {
+  background: #301f15;
+  padding: 60px;
+}
+.container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  background: #dbbca0;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.coffee-img-lato {
+  width: 64.93002319335938px;
+  height: 100.5772705078125px;
+  margin: auto;
 }
