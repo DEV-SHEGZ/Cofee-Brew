@@ -297,13 +297,24 @@ hr {
 }
 
 /* Our Products */
+
+.varieties-section {
+  background: #dbbca0;
+  padding-top: 30px;
+}
+
+.products-container {
+  width: 88%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
 .section-title {
   font-family: Josefin Sans;
   font-weight: 600;
   font-style: SemiBold;
   font-size: 48px;
   text-align: center;
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -321,6 +332,8 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: Josefin Sans;
+  padding-top: 8px;
 }
 
 .product-first-div {
@@ -328,7 +341,44 @@ hr {
 }
 .product-img {
   width: 263px;
-  height: 350px;
+  height: 340px;
   margin: auto;
   border-radius: 8px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.card-p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.product-btn {
+  width: 83px;
+  height: 30px;
+  background-color: #301f15;
+  color: #f7f0d4;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
 }
