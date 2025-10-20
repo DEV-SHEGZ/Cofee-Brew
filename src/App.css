@@ -295,3 +295,40 @@ hr {
   height: 100.5772705078125px;
   margin: auto;
 }
+
+/* Our Products */
+.section-title {
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.span-title {
+  font-weight: 700;
+  font-style: Bold;
+}
+
+.product-card {
+  width: 283px;
+  height: 442px;
+  border-radius: 8px;
+  border-width: 0.4px;
+  background: #e4ccb6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-first-div {
+  width: 85%;
+}
+.product-img {
+  width: 263px;
+  height: 350px;
+  margin: auto;
+  border-radius: 8px;
+}

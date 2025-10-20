@@ -13,15 +13,15 @@ const CoffeeItems = function () {
         </div>
         <div className="item-card">
           <img className="coffee-img-lato" src={lato} alt="" />
-          <p className="coffee-txt"> Hot coffee</p>
+          <p className="coffee-txt"> Cold coffee</p>
         </div>
         <div className="item-card">
           <img className="coffee-img-beans" src={beans} alt="" />
-          <p className="coffee-txt"> Hot coffee</p>
+          <p className="coffee-txt"> Beans</p>
         </div>
         <div className="item-card">
           <img className="coffee-img-cake" src={cake} alt="" />
-          <p className="coffee-txt"> Hot coffee</p>
+          <p className="coffee-txt"> Desert</p>
         </div>
       </div>
     </div>
