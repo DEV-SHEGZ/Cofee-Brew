@@ -296,7 +296,7 @@ hr {
   margin: auto;
 }
 
-/* Our Products */
+/* Varieties */
 
 .varieties-section {
   background: #dbbca0;
@@ -381,4 +381,44 @@ hr {
   border: none;
   border-radius: 8px;
   padding: 8px;
+}
+
+.View-menu-btn {
+  border: none;
+  border-radius: 25px;
+  padding: 15px 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #301f15;
+  color: #f7f0d4;
+}
+.view-btn-div {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+/*Products page */
+.Ourproducts-container {
+  background: linear-gradient(
+    270deg,
+    #301f15 0%,
+    #301f15 19.93%,
+    #301f15 40.63%,
+    #301f15 60.07%,
+    #301f15 78.96%,
+    #301f15 99.93%
+  );
+  height: 579px;
+  display: flex;
+  align-items: center;
+}
+
+.ourproducts {
+  width: 80%;
+  height: 376px;
+  background: #f7f0d4;
+  border-radius: 12px;
+  margin: auto;
 }

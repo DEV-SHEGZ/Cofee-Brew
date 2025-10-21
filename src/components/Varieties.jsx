@@ -53,8 +53,9 @@ const Varieties = () => {
           </div>
         </div>
       </div>
-
-      <button className="View-more-btn">View More</button>
+      <div className="view-btn-div">
+        <button className="View-menu-btn">View Menu {"  >>"}</button>
+      </div>
     </div>
   );
 };
