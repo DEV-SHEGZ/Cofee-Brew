@@ -6,7 +6,9 @@ const Ourproducts = () => {
     <div className="Ourproducts-container">
       <div className="ourproducts">
         <div>
-          <p>Discover the Perfect Beans for Your Perfect Cup</p>
+          <p className="products-p">
+            Discover the Perfect Beans for Your Perfect Cup
+          </p>
           <button>Explore our Products</button>
         </div>
 

@@ -381,6 +381,8 @@ hr {
   border: none;
   border-radius: 8px;
   padding: 8px;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
 }
 
 .View-menu-btn {
@@ -421,4 +423,17 @@ hr {
   background: #f7f0d4;
   border-radius: 12px;
   margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.beanbag {
+}
+
+.products-p {
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 48px;
+  color: #00000;
 }
