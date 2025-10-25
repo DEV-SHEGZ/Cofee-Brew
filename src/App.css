@@ -418,16 +418,19 @@ hr {
 }
 
 .ourproducts {
-  width: 80%;
+  width: 85%;
   height: 376px;
   background: #f7f0d4;
   border-radius: 12px;
   margin: auto;
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 
 .beanbag {
+  width: 500px;
+  height: 420px;
 }
 
 .products-p {
@@ -436,6 +439,7 @@ hr {
   font-style: SemiBold;
   font-size: 48px;
   color: #00000;
+  margin-bottom: 20px;
 }
 
 .Explore-btn {
@@ -448,4 +452,13 @@ hr {
   cursor: pointer;
   background-color: #301f15;
   color: #f7f0d4;
+}
+
+.ourprdcts-1 {
+  margin-left: 5%;
+}
+
+.ourproducts-bg {
+  position: absolute;
+  z-index: 1;
 }
