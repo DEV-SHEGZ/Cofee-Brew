@@ -437,3 +437,15 @@ hr {
   font-size: 48px;
   color: #00000;
 }
+
+.Explore-btn {
+  border: none;
+  border-radius: 25px;
+  padding: 15px 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #301f15;
+  color: #f7f0d4;
+}

@@ -9,7 +9,7 @@ const Ourproducts = () => {
           <p className="products-p">
             Discover the Perfect Beans for Your Perfect Cup
           </p>
-          <button>Explore our Products</button>
+          <button className="Explore-btn">Explore our Products</button>
         </div>
 
         <img src={Beanbag} alt="Bean Bag" className="beanbag" />
