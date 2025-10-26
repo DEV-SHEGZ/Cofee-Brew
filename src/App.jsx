@@ -5,6 +5,7 @@ import CoffeeItems from "./components/Menu.jsx";
 import Varieties from "./components/Varieties.jsx";
 import Ourproducts from "./components/Ourproducts.jsx";
 import Review from "./components/Review.jsx";
+import NewsLetter from "./components/NewsLetter.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Varieties />
       <Ourproducts />
       <Review />
+      <NewsLetter />
     </>
   );
 }
