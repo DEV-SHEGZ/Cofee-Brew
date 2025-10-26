@@ -4,6 +4,7 @@ import Discover from "./components/Discover.jsx";
 import CoffeeItems from "./components/Menu.jsx";
 import Varieties from "./components/Varieties.jsx";
 import Ourproducts from "./components/Ourproducts.jsx";
+import Review from "./components/Review.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <CoffeeItems />
       <Varieties />
       <Ourproducts />
+      <Review />
     </>
   );
 }

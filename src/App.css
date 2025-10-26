@@ -462,3 +462,77 @@ hr {
   position: absolute;
   z-index: 1;
 }
+
+/* NewsLetter Section */
+.newsletter-section {
+  background: #dbbca0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.news-hd {
+  font-family: Pacifico;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  text-align: center;
+}
+
+.customer-review {
+  width: 384px;
+  height: 284px;
+  border-radius: 8px;
+  border-width: 0.4px;
+  background: #e4ccb6;
+  border: 0.4px solid #eb8f45;
+  box-shadow: 2px 2px 2px 0px #0000001f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.customer-review > .p1 {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  text-align: center;
+  color: #3f2f2a;
+}
+
+.customer-review > .p2 {
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  text-align: center;
+  color: #756a63;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.get {
+  border: none;
+  background: #301f15;
+  width: 189px;
+  height: 60px;
+  border-radius: 32px;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  padding-left: 40px;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  color: #f7f0d4;
+}
