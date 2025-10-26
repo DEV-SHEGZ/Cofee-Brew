@@ -492,6 +492,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding: 20px;
 }
 
 .customer-review > .p1 {
@@ -538,15 +539,22 @@ hr {
 }
 
 /*Newsletter forms */
+.newsletter-container {
+  width: 100%;
+  background: #dbbca0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .Newsletter-form {
-  width: 1192px;
-  height: 342px;
-  border-radius: 12px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #301f15;
+  width: 1192px;
+  height: 345px;
+  margin: auto;
+  border-radius: 12px;
 }
 
 .Newsletter-form > .p1 {
@@ -554,6 +562,7 @@ hr {
   font-weight: 600;
   font-style: SemiBold;
   font-size: 40px;
+  color: #f7f0d4;
 }
 
 .Newsletter-form > .p2 {
@@ -562,12 +571,15 @@ hr {
   font-style: Regular;
   font-size: 20px;
   margin-top: 10px;
+  color: #d6d2d0;
 }
 
 .new-input {
   width: 543px;
   height: 60px;
   border-radius: 40px;
+  padding-left: 80px;
+  border: none;
 }
 
 .new-btn {
@@ -580,4 +592,43 @@ hr {
   padding-left: 32px;
   background: #f7f0d4;
   color: #301f15;
+  border: none;
+  margin-left: 20px;
+  color: #301f15;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+}
+
+.input-div {
+  position: relative;
+  padding-top: 30px;
+}
+.input-div :focus {
+  outline: none;
+}
+.email {
+  position: absolute;
+  left: 5%;
+  top: 58%;
+}
+
+.left-img {
+  position: absolute;
+  z-index: 0;
+  width: 384px;
+  height: 342px;
+  top: -160px;
+  left: -260px;
+}
+
+.right-img {
+  position: absolute;
+  z-index: 0;
+  width: 384px;
+  height: 342px;
+  top: -160px;
+  right: -238px;
+  border-radius: 12px;
 }

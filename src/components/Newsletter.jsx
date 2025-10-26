@@ -5,14 +5,16 @@ import "../App.css";
 
 const NewsLetter = () => {
   return (
-    <>
+    <div className="newsletter-container">
       <div className="Newsletter-form">
         <p className="p1">Join in and get 25% Off!!</p>
         <p className="p2">
           Subscribe to our newsletter and get 25% off discount code
         </p>
-        <div>
-          <img src={Email} alt="Email Icon" />
+        <div className="input-div">
+          <img src={LeftImage} alt="Left Decorative" className="left-img" />
+          <img src={RightImage} alt="Right Decorative" className="right-img" />
+          <img className="email" src={Email} alt="Email Icon" />
           <input
             className="new-input"
             placeholder="email address"
@@ -21,7 +23,7 @@ const NewsLetter = () => {
           <button className="new-btn">Subscribe</button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
