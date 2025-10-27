@@ -6,7 +6,7 @@ import Varieties from "./components/Varieties.jsx";
 import Ourproducts from "./components/Ourproducts.jsx";
 import Review from "./components/Review.jsx";
 import NewsLetter from "./components/NewsLetter.jsx";
-
+import Footer from "./components/footer.jsx";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
       <Ourproducts />
       <Review />
       <NewsLetter />
+      <Footer />
     </>
   );
 }
