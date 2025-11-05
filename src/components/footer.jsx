@@ -41,7 +41,7 @@ const Footer = () => {
 
         <ul>
           <li>Contact us</li>
-          <li></li>
+          <li>+1 (806) 421-0427</li>
           <li></li>
           <li></li>
         </ul>
