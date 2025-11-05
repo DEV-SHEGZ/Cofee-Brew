@@ -47,6 +47,9 @@ const Footer = () => {
         </ul>
       </div>
       <hr />
+      <p className="copyrights">
+        2025 &copy; | All Rights Reserved | Developed by DevShegz
+      </p>
     </div>
   );
 };
