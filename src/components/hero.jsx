@@ -19,7 +19,7 @@ const Hero = () => {
           <button className="order-btn">Order now {"  >>"} </button>
         </div>
         <img src={CoffeeLarge} className="coffee-cup" />
-        <div>
+        <div className="hr">
           <hr />
           <div className="socials">
             <img src={Whatsapp} />

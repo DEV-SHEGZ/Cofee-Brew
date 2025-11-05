@@ -9,44 +9,45 @@ import "../App.css";
 
 const Footer = () => {
   return (
-    <>
+    <div className="footer">
       <div className="footer-cnt">
         <div className="footer-1">
           <img src={coffeecup} alt="Coffee Cup Logo" />
           <p>CoffeeBrew</p>
         </div>
 
-        <ul>
-          <li>Information</li>
+        <ul className="footer-ul">
+          <li className="first-ul">Information</li>
           <li>About us</li>
           <li>Testimonials</li>
           <li>Find a location</li>
           <li>More search</li>
         </ul>
 
-        <ul>
-          <li>Useful links</li>
+        <ul className="footer-ul">
+          <li className="first-ul">Useful links</li>
           <li>Terms and conditions</li>
           <li>Privacy policy</li>
           <li>Supports</li>
           <li>Services</li>
         </ul>
 
-        <ul>
-          <li>Our services</li>
+        <ul className="footer-ul">
+          <li className="first-ul">Our services</li>
           <li>Shop</li>
           <li>Order ahead</li>
           <li>Menu</li>
         </ul>
 
-        <ul>
-          <li>Contact us</li>
+        <ul className="footer-ul">
+          <li className="first-ul">Contact us</li>
           <li>+1 (806) 421-0427</li>
-          <li></li>
+          <li>coffeebrew@yahoo.com</li>
           <li></li>
         </ul>
       </div>
-    </>
+      <hr />
+    </div>
   );
 };
 
