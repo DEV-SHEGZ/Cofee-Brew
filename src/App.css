@@ -207,7 +207,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 85%;
+  width: 89%;
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -438,7 +438,7 @@
   font-weight: 600;
   font-style: SemiBold;
   font-size: 48px;
-  color: #00000;
+  color: #0000;
   margin-bottom: 20px;
 }
 
