@@ -304,7 +304,7 @@
 }
 
 .products-container {
-  width: 88%;
+  width: 92%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -438,7 +438,7 @@
   font-weight: 600;
   font-style: SemiBold;
   font-size: 48px;
-  color: #0000;
+  color: #000000;
   margin-bottom: 20px;
 }
 
