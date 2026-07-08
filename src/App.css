@@ -700,4 +700,11 @@
   .hero {
     flex-direction: column;
   }
+  .navbar {
+    display: none !important;
+  }
+
+  .navbar-logo {
+    display: block !important;
+  }
 }
