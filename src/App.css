@@ -695,6 +695,9 @@
   margin-top: 30px;
   padding-bottom: 20px;
 }
+.navbar-mobile {
+  display: none;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
@@ -706,5 +709,30 @@
 
   .navbar-logo {
     display: block !important;
+  }
+
+  .bar {
+    width: 27px !important;
+    height: 2px !important;
+    background-color: #f7f0d4;
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    border-radius: 2px !important;
+  }
+
+  .navbar-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(
+      270deg,
+      #301f15 0%,
+      #301f15 19.24%,
+      #301f16 38.54%,
+      #4a2f25 58.26%,
+      #5c3e31 79.37%,
+      #5a4031 100%
+    );
+    border-bottom: none !important;
   }
 }
