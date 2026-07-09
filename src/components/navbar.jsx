@@ -7,7 +7,10 @@ const Navbar = () => {
     <>
       {/*Mobile-Nav*/}
       <nav className="navbar-mobile">
-        <img className="navbar-logo" src={navlogo} alt="Coffee Brew Logo" />
+        <div className="navbar-logo-mobile">
+          <img className="navbar-img" src={navlogo} alt="Coffee Brew Logo" />
+          <p>CoffeeBrew</p>
+        </div>
         <div className="burger">
           <div className="bar"></div>
           <div className="bar"></div>

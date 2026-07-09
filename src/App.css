@@ -707,8 +707,19 @@
     display: none !important;
   }
 
-  .navbar-logo {
+  .navbar-logo-mobile {
     display: block !important;
+    font-size: 18px !important;
+    display: flex !important;
+    align-items: center !important;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+    color: #f7f0d4;
+  }
+
+  .navbar-img {
+    width: 52px;
+    height: 52px;
   }
 
   .bar {
@@ -734,5 +745,6 @@
       #5a4031 100%
     );
     border-bottom: none !important;
+    padding: 20px 10px 20px 10px !important;
   }
 }
