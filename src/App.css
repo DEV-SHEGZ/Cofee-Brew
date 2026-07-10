@@ -803,6 +803,28 @@
     top: 470px;
     right: 28px;
   }
+  .cofee4 {
+    position: absolute;
+    top: 750px;
+    left: 20px;
+  }
+
+  .cofee5 {
+    position: absolute;
+    top: 745px;
+    left: 125px;
+  }
+
+  .cofee6 {
+    position: absolute;
+    top: 730px;
+    right: 110px;
+  }
+  .cofee7 {
+    position: absolute;
+    top: 710px;
+    right: 40px;
+  }
 
   .hero-background {
     position: relative;

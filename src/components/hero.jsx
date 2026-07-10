@@ -9,6 +9,10 @@ import cofeeseed from "../assets/cocoa seed.png";
 import cofee1 from "../assets/image 6.png";
 import cofee2 from "../assets/image 7.png";
 import cofee3 from "../assets/image 8.png";
+import cofee4 from "../assets/image 11.png";
+import cofee5 from "../assets/image 9.png";
+import cofee6 from "../assets/image 10.png";
+import cofee7 from "../assets/image 12.png";
 
 const Hero = () => {
   return (
@@ -44,6 +48,10 @@ const Hero = () => {
       <img src={cofee1} className="cofee1" />
       <img src={cofee2} className="cofee2" />
       <img src={cofee3} className="cofee3" />
+      <img src={cofee4} className="cofee4" />
+      <img src={cofee5} className="cofee5" />
+      <img src={cofee6} className="cofee6" />
+      <img src={cofee7} className="cofee7" />
     </div>
   );
 };
