@@ -6,7 +6,7 @@ const Discover = () => {
   return (
     <div className="discover-background">
       <div className="discover">
-        <div>
+        <div className="first-div">
           <img src={AboutUs} className="aboutus-img" />
         </div>
 

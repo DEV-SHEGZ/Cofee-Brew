@@ -702,6 +702,8 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
     flex-direction: column;
+    padding-top: 50px !important;
+    padding-bottom: 150px !important;
   }
   .navbar {
     display: none !important;
@@ -774,10 +776,7 @@
   .hr {
     display: none !important;
   }
-  .hero {
-    padding-top: 50px !important;
-    padding-bottom: 100px !important;
-  }
+
   .cofeeseed1,
   .cofeeseed2,
   .cofeeseed3,
@@ -828,5 +827,39 @@
 
   .hero-background {
     position: relative;
+  }
+
+  .discover {
+    flex-direction: column;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    align-items: center !important;
+  }
+  .aboutus-img {
+    height: 325px;
+    width: 373px;
+  }
+
+  .first-div {
+    order: 2;
+    margin-top: 25px !important;
+  }
+  .second-div {
+    order: 1;
+    margin-left: 0px !important;
+    text-align: center;
+  }
+  .Read-more {
+    margin: auto !important;
+    width: 50%;
+  }
+  .discver-hd {
+    font-size: 32px !important;
+  }
+  .discver-p {
+    font-size: 18px !important;
+  }
+  .p-dv {
+    font-size: 12px !important;
   }
 }
