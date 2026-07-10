@@ -862,4 +862,39 @@
   .p-dv {
     font-size: 12px !important;
   }
+
+  .item-card {
+    width: 76px !important;
+    height: 104px !important;
+  }
+
+  .first-container {
+    padding: 50px 10px 50px 10px !important;
+  }
+  .container {
+    padding: 20px 10px 20px 10px !important;
+  }
+  .coffee-img-cup {
+    width: 44px;
+    height: 23px;
+  }
+  .coffee-txt {
+    font-size: 12px;
+  }
+  .coffee-img-lato {
+    width: 28px;
+    height: 44px;
+  }
+  .coffee-img-beans {
+    width: 44px;
+    height: 41px;
+  }
+  .coffee-img-cake {
+    width: 44px;
+    height: 44px;
+  }
+  .item-card {
+    border-radius: 4px;
+    padding: 0px 0px 15px 0px;
+  }
 }
