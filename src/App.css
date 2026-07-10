@@ -747,4 +747,20 @@
     border-bottom: none !important;
     padding: 20px 10px 20px 10px !important;
   }
+
+  .hero-header {
+    font-size: 36px !important;
+    text-align: center;
+  }
+
+  .hero-p {
+    font-size: 12px !important;
+    text-align: center;
+  }
+
+  .hero-mb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

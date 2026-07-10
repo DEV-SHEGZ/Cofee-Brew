@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div div className="hero-background">
       <div className="hero">
-        <div>
+        <div className="hero-mb">
           <p className="hero-header">Discover the Perfect Brew at CoffeBrew</p>
           <p className="hero-p">
             From Espresso to Cold Brew, We've Got Your Caffeine Fix Covered
