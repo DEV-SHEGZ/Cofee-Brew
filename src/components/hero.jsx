@@ -6,6 +6,9 @@ import Twitter from "../assets/Twitter.png";
 import Instagram from "../assets/Instagram.png";
 import Facebook from "../assets/facebook.png";
 import cofeeseed from "../assets/cocoa seed.png";
+import cofee1 from "../assets/image 6.png";
+import cofee2 from "../assets/image 7.png";
+import cofee3 from "../assets/image 8.png";
 
 const Hero = () => {
   return (
@@ -36,6 +39,11 @@ const Hero = () => {
       <img src={cofeeseed} className="cofeeseed5" />
       <img src={cofeeseed} className="cofeeseed6" />
       <img src={cofeeseed} className="cofeeseed7" />
+
+      {/* mobile view */}
+      <img src={cofee1} className="cofee1" />
+      <img src={cofee2} className="cofee2" />
+      <img src={cofee3} className="cofee3" />
     </div>
   );
 };
