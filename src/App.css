@@ -698,6 +698,15 @@
 .navbar-mobile {
   display: none;
 }
+.cofee1,
+.cofee2,
+.cofee3,
+.cofee4,
+.cofee5,
+.cofee6,
+.cofee7 {
+  display: none !important;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
@@ -877,6 +886,16 @@
   .coffee-img-cup {
     width: 44px;
     height: 23px;
+  }
+
+  .cofee1,
+  .cofee2,
+  .cofee3,
+  .cofee4,
+  .cofee5,
+  .cofee6,
+  .cofee7 {
+    display: block !important;
   }
   .coffee-txt {
     font-size: 12px;
