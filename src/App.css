@@ -936,4 +936,35 @@
   .section-title {
     font-size: 24px;
   }
+
+  .view-btn-div {
+    padding: 30px 0px 30px 0px;
+  }
+  .ourproducts {
+    flex-direction: column;
+    height: 430px;
+    width: 90%;
+  }
+
+  .beanbag {
+    width: 294px;
+    height: 243px;
+    order: 1;
+  }
+  .ourprdcts-1 {
+    order: 2;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .products-p {
+    font-size: 24px;
+    text-align: center;
+  }
+  .Explore-btn {
+    font-size: 14px;
+  }
+  .Ourproducts-container {
+    height: 527px;
+  }
 }
