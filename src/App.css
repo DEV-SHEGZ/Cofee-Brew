@@ -944,6 +944,7 @@
     flex-direction: column;
     height: 430px;
     width: 90%;
+    justify-content: space-evenly;
   }
 
   .beanbag {
@@ -966,5 +967,13 @@
   }
   .Ourproducts-container {
     height: 527px;
+  }
+
+  .news-hd {
+    font-size: 24px;
+  }
+  .ourproducts-bgimg {
+    width: 80%;
+    height: 500px;
   }
 }
