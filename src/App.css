@@ -465,7 +465,6 @@
 
 /* NewsLetter Section */
 .newsletter-section {
-  background: #dbbca0;
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
@@ -706,6 +705,10 @@
 .cofee6,
 .cofee7 {
   display: none !important;
+}
+.review {
+  background: #dbbca0;
+  text-align: center;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -971,9 +974,33 @@
 
   .news-hd {
     font-size: 24px;
+    padding-top: 50px;
   }
   .ourproducts-bgimg {
     width: 80%;
     height: 500px;
+  }
+
+  .review {
+    background: #dbbca0;
+    text-align: center;
+  }
+
+  .newsletter-section {
+    overflow-x: scroll;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .newsletter-section::-webkit-scrollbar {
+    display: none;
+  }
+
+  .get {
+    margin-top: 10px;
+  }
+  .customer-review {
+    margin-left: 23px;
   }
 }
