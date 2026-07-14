@@ -919,7 +919,9 @@
 
   .product-card {
     width: 184px;
-    height: 319px;
+    height: 350px;
+    padding-top: 6px;
+    margin-bottom: 20px;
   }
 
   .product-img {
@@ -929,5 +931,9 @@
 
   .products-container {
     flex-wrap: wrap;
+  }
+
+  .section-title {
+    font-size: 24px;
   }
 }
