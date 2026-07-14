@@ -1003,4 +1003,34 @@
   .customer-review {
     margin-left: 23px;
   }
+
+  .Newsletter-form {
+    width: 90%;
+    height: 300px;
+  }
+  .new-input {
+    width: 90%;
+  }
+
+  .input-div {
+    text-align: center;
+  }
+  .Newsletter-form > .p1 {
+    font-size: 20px;
+  }
+
+  .Newsletter-form > .p2 {
+    font-size: 10px;
+  }
+
+  .email {
+    position: absolute;
+    left: 14%;
+    top: 32%;
+  }
+
+  .new-btn {
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  }
 }
