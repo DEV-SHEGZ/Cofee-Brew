@@ -41,8 +41,8 @@ const Footer = () => {
 
         <ul className="footer-ul">
           <li className="first-ul">Contact us</li>
-          <li>+1 (806) 421-0427</li>
-          <li>coffeebrew@yahoo.com</li>
+          <li>+234 9037405907</li>
+          <li>strexy1998@gmail.com</li>
           <li></li>
         </ul>
       </div>

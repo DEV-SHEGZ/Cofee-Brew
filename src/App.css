@@ -986,6 +986,8 @@
     text-align: center;
   }
 
+  /* image 23 */
+
   .newsletter-section {
     overflow-x: scroll;
     flex-direction: row;
@@ -1058,5 +1060,13 @@
     top: -89px;
     right: 0px;
     border-radius: 12px;
+  }
+
+  .footer-1 {
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .footer-cnt {
+    flex-direction: column;
   }
 }
