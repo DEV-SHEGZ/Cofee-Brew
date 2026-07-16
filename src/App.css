@@ -715,6 +715,49 @@
   display: none !important;
 }
 
+@media (min-width: 350px) and (max-width: 390px) {
+  .cofee4 {
+    top: 789px !important;
+  }
+  .cofee5 {
+    top: 790px !important;
+  }
+
+  .cofee6 {
+    top: 779px !important;
+    right: 80px !important;
+  }
+
+  .cofee7 {
+    top: 755px !important;
+    right: 40px !important;
+  }
+
+  .hero-header {
+    font-size: 30px !important;
+  }
+
+  .aboutus-img {
+    width: 350px !important;
+  }
+  .Read-more {
+    margin: auto !important;
+    width: 55% !important;
+  }
+
+  .container {
+    width: 99% !important;
+  }
+
+  .product-card {
+    width: 165px !important;
+  }
+
+  .product-img {
+    width: 155px !important;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
     flex-direction: column;
@@ -1078,6 +1121,6 @@
     display: block !important;
   }
   .footer-socials > img {
-    margin-right: 10px;
+    margin-right: 20px;
   }
 }
