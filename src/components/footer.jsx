@@ -5,6 +5,10 @@ import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
 import Phone from "../assets/phone.png";
 import Mail from "../assets/mail.png";
+import Whatsapp from "../assets/whatsapp.png";
+import Twitter from "../assets/Twitter.png";
+import Instagram from "../assets/Instagram.png";
+import Facebook from "../assets/facebook.png";
 import "../App.css";
 
 const Footer = () => {
@@ -45,7 +49,14 @@ const Footer = () => {
           <li>strexy1998@gmail.com</li>
           <li></li>
         </ul>
+        <div className="footer-socials">
+          <img src={Whatsapp} alt="Whatsapp" />
+          <img src={Instagram} alt="Instagram" />
+          <img src={Facebook} alt="Facebook" />
+          <img src={Twitter} alt="Twitter" />
+        </div>
       </div>
+
       <hr />
       <p className="copyrights">
         2025 &copy; | All Rights Reserved | Developed by DevShegz

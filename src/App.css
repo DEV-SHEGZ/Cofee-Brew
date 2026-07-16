@@ -711,6 +711,10 @@
   text-align: center;
 }
 
+.footer-socials {
+  display: none !important;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
     flex-direction: column;
@@ -1068,5 +1072,12 @@
   }
   .footer-cnt {
     flex-direction: column;
+  }
+
+  .footer-socials {
+    display: block !important;
+  }
+  .footer-socials > img {
+    margin-right: 10px;
   }
 }
