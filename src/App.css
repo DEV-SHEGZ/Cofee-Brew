@@ -756,6 +756,19 @@
   .product-img {
     width: 155px !important;
   }
+
+  .customer-review {
+    margin-left: 8px !important;
+  }
+
+  .customer-review {
+    width: 360px !important;
+  }
+
+  .products-p {
+    font-size: 21px !important;
+    text-align: center !important;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
